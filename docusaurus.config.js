@@ -42,6 +42,8 @@ const config = {
     locales: ['en'],
   },
 
+  trailingSlash: false,
+
   presets: [
     [
       'classic',
