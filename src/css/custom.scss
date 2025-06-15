@@ -28,7 +28,6 @@ pre, code {
     margin-left: 220px !important;
   }
 
-  /* 사이드바 내 로고 스타일 */
   .navbar__brand {
     padding-left: 0.5rem;
     padding-right: 1rem;
@@ -36,7 +35,7 @@ pre, code {
   }
 
   .navbar__logo {
-    max-width: 120px; /* 사이드바 너비보다 여유 있게 */
+    max-width: 120px; 
     max-height: 36px;
     width: 100%;
     height: auto;
@@ -51,6 +50,26 @@ pre, code {
 // .navbar__logo {
 //   height: 4rem;
 // }
+
+.dropdown > .navbar__link:after {
+  border-color: #757575;
+  border-style: solid;
+  border-width: 0 0.1em 0.1em 0;
+  content: '';
+  display: inline-block;
+  margin-left: -0.6em;
+  position: relative;
+  top: -3px;
+  padding: 4px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.navbar__item.dropdown .dropdown__menu {
+  left: 0 !important;
+  right: auto !important;
+  transform: translateX(-100px);
+}
 
 :root {
   /* --ifm-color-primary: #2e8555;

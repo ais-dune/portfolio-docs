@@ -38,8 +38,6 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    // defaultLocale: 'en',
-    // locales: ['en'],
     defaultLocale: 'ko',
     locales: ['ko'],
     // locales: ['ko', 'en'],
@@ -138,6 +136,23 @@ const config = {
             label: 'What\'s new',
             docId: 'release-notes/new-features',
           },
+          {
+            type: 'dropdown',
+            sidebarId: 'releaseSidebar',
+            position: 'left',
+            items: [
+              {
+                type: 'doc',
+                docId: 'release-notes/new-features',
+                label: 'What\'s new',
+              },
+              {
+                type: 'doc',
+                docId: 'release-notes/release-notes',
+                label: 'Release Notes',
+              },
+            ]
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/ais-dune/portfolio-docs',
@@ -149,45 +164,45 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/ais-dune/portfolio-docs',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'X',
+          //       href: 'https://x.com/docusaurus',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/ais-dune/portfolio-docs',
+          //     },
+          //   ],
+          // },
         ],
         // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
         copyright: `Copyright © ${new Date().getFullYear()} ais-dune. Built with Docusaurus.`,
