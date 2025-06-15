@@ -27,7 +27,7 @@
 <p><img alt="Docusaurus Plushie" src="https://ais-dune.github.io/portfolio-docs/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500"></p>
 <p>The blog supports tags as well!</p>
 <p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <author>ys.jo@okestro.com (솔루션콘텐츠 팀)</author>
+            <author>ys.jo@okestro.com (솔루션 콘텐츠 팀)</author>
             <author>ys.jo@okestro.com (TW J)</author>
             <category>Facebook</category>
             <category>Hello</category>
@@ -73,7 +73,7 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <author>ys.jo@okestro.com (솔루션콘텐츠 팀)</author>
+            <author>ys.jo@okestro.com (솔루션 콘텐츠 팀)</author>
             <category>Hello</category>
             <category>Docusaurus</category>
         </item>
@@ -85,7 +85,7 @@
             <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
             <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
 <p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <author>ys.jo@okestro.com (솔루션콘텐츠 팀)</author>
+            <author>ys.jo@okestro.com (솔루션 콘텐츠 팀)</author>
             <author>ys.jo@okestro.com (TW J)</author>
             <category>Hola</category>
             <category>Docusaurus</category>
