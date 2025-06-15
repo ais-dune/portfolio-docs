@@ -32,10 +32,12 @@ pre, code {
   .navbar__brand {
     padding-left: 0.5rem;
     padding-right: 1rem;
+    margin-top: -5px;
   }
 
   .navbar__logo {
     max-width: 120px; /* 사이드바 너비보다 여유 있게 */
+    max-height: 36px;
     width: 100%;
     height: auto;
   }

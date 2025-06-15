@@ -105,7 +105,9 @@ const config = {
         title: '',
         logo: {
           alt: 'Home Logo',
-          src: 'img/tw_logo2.svg',
+          src: 'img/tw_logo_l2.png',
+          srcDark: 'img/tw_logo_d2.png',
+          // src: 'img/tw_logo2.svg',
           // width: "76px",
           // height: "auto",
         },
