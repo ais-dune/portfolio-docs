@@ -41,18 +41,19 @@ const config = {
     // defaultLocale: 'en',
     // locales: ['en'],
     defaultLocale: 'ko',
-    locales: ['ko', 'en'],
+    locales: ['ko'],
+    // locales: ['ko', 'en'],
     localeConfigs: {
       ko: {
         label: '한국어',
         direction: 'ltr',
         htmlLang: 'ko-KR',
       },
-      en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en-US',
-      },
+      // en: {
+      //   label: 'English',
+      //   direction: 'ltr',
+      //   htmlLang: 'en-US',
+      // },
     },
   },
 
