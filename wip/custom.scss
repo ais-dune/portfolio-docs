@@ -65,14 +65,52 @@ pre, code {
   -webkit-transform: rotate(45deg);
 }
 
-// // 모든 드롭다운 링크에서 기본 active 제거
-// .dropdown__link--active {
-//   background-color: unset;
+
+// 테스트2
+// .navbar__item.dropdown .dropdown__menu {
+//   left: 0 !important;
+//   right: auto !important;
+//   transform: translateX(-100px);
 // }
 
-// // 현재 페이지인 경우에만 스타일 적용
-// .dropdown__link--active[aria-current="page"] {
-//   background-color: var(--ifm-menu-color-background-active);
+// /* 드롭다운 전체 영역 hover 시 드롭다운 메뉴 노출 */
+// .dropdown--hoverable:hover .dropdown__menu {
+//   display: block;
+// }
+
+// /* 애로우 아이콘 위치 및 간격 조절 */
+// .dropdown--hoverable > a.navbar__link::after {
+//   content: '';
+//   display: inline-block;
+//   margin-left: 0.4em;
+//   border-color: #757575;
+//   border-style: solid;
+//   border-width: 0 0.1em 0.1em 0;
+//   top: -2px;
+//   margin-left: -0.7em;
+//   padding: 3px;
+//   transform: rotate(45deg);
+// }
+
+// 테스트1
+// .dropdown > .navbar__link:after {
+//   border-color: #757575;
+//   border-style: solid;
+//   border-width: 0 0.1em 0.1em 0;
+//   content: '';
+//   display: inline-block;
+//   margin-left: -0.6em;
+//   position: relative;
+//   top: -3px;
+//   padding: 4px;
+//   transform: rotate(45deg);
+//   -webkit-transform: rotate(45deg);
+// }
+
+// .navbar__item.dropdown .dropdown__menu {
+//   left: 0 !important;
+//   right: auto !important;
+//   transform: translateX(-100px);
 // }
 
 :root {

@@ -130,26 +130,25 @@ const config = {
             docId: 'license/lincense.mdx',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'releaseSidebar',
-            position: 'left',
-            label: 'What\'s new',
-            docId: 'release-notes/new-features',
-          },
-          {
             type: 'dropdown',
-            sidebarId: 'releaseSidebar',
+            label: 'What\'s New',
             position: 'left',
             items: [
               {
                 type: 'doc',
                 docId: 'release-notes/new-features',
-                label: 'What\'s new',
+                // to: 'release-notes/new-features',
+                label: 'New Features',
+                // sidebarId: 'releaseSidebar',
+                // activeBaseRegex: '^/new-features/?$'
               },
               {
                 type: 'doc',
                 docId: 'release-notes/release-notes',
+                // to: 'release-notes/release-notes',
                 label: 'Release Notes',
+                // sidebarId: 'releaseSidebar',
+                // activeBaseRegex: '^/release-notes/?$'
               },
             ]
           },

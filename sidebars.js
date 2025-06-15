@@ -48,11 +48,8 @@ const sidebars = {
       label: 'What\'s New',
       collapsible: false,
       collapsed: false,
-      link: {
-        type: 'doc',
-        id: 'release-notes/new-features',
-      },
       items: [
+        'release-notes/new-features',
         'release-notes/release-notes'
       ]
     }
