@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Dune Forest',
   tagline: 'Dune Forest is cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/tw_favicon.ico',
   deploymentBranch: 'gh-pages',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -38,8 +38,22 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    // defaultLocale: 'en',
+    // locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko', 'en'],
+    localeConfigs: {
+      ko: {
+        label: '한국어',
+        direction: 'ltr',
+        htmlLang: 'ko-KR',
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+    },
   },
 
   trailingSlash: false,
@@ -84,17 +98,33 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Home Logo',
+          src: 'img/tw_logo2.svg',
+          // src: 'img/TCW_logo.png',
+          // width: "64px",
+          // height: "43px",
         },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'productsSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Products',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'releaseSidebar',
+            position: 'left',
+            label: 'What\'s new',
+            docId: 'release-notes/new-features',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
