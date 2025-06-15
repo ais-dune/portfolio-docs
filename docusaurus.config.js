@@ -58,6 +58,8 @@ const config = {
 
   trailingSlash: false,
 
+  plugins: ['docusaurus-plugin-sass'],
+
   presets: [
     [
       'classic',
@@ -86,7 +88,8 @@ const config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          // customCss: './src/css/custom.css',
+          customCss: './src/css/custom.scss',
         },
       }),
     ],
@@ -102,9 +105,8 @@ const config = {
         logo: {
           alt: 'Home Logo',
           src: 'img/tw_logo2.svg',
-          // src: 'img/TCW_logo.png',
-          // width: "64px",
-          // height: "43px",
+          // width: "76px",
+          // height: "auto",
         },
         items: [
           // {
@@ -118,6 +120,13 @@ const config = {
             sidebarId: 'productsSidebar',
             position: 'left',
             label: 'Products',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'lsSidebar',
+            position: 'left',
+            label: 'License',
+            docId: 'license/lincense.mdx',
           },
           {
             type: 'docSidebar',

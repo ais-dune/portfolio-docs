@@ -30,6 +30,18 @@ const sidebars = {
     }
   ],
 
+  lsSidebar: [
+    {
+      type: 'category',
+      label: '라이선스',
+      collapsible: false,
+      collapsed: false,
+      items: [
+        'license/license',
+      ]
+    }
+  ],
+
   releaseSidebar: [
     {
       type: 'category',
